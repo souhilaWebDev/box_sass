@@ -1,0 +1,62 @@
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Styles pour le footer
+.footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: flex-start;
+padding: 30px;
+background-color: $secondary-color;
+
+  // Conteneurs d'images et de descriptions
+.footer-box {
+    width: 23%;
+    margin-bottom: 30px;
+
+    // Image
+    img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+
+    // Description
+    p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    margin: 0;
+    }
+}
+
+  // Menu flottant
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    // Liens du menu
+    a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+
+&:hover {
+        text-decoration: underline;
+}
+}
+}
+}

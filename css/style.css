@@ -5,15 +5,43 @@
 footer {
   background-color: var(--couleur-primary);
 }
+footer .footer-nav {
+  padding: 60px 20px 10px 20px;
+  text-align: center;
+  position: relative;
+}
+footer .footer-nav .position-relative {
+  background-color: #fff;
+  width: 60%;
+  left: 20%;
+  top: -80px;
+  position: absolute;
+  padding: 20px 30px 5px 20px;
+  border-radius: 12px;
+}
+footer .footer-nav .position-relative ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  list-style-type: circle;
+}
+footer .footer-nav .position-relative ul li {
+  position: relative;
+}
+footer .footer-nav .position-relative ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: color 300ms ease-out;
+}
+footer .footer-nav .position-relative ul li a:hover {
+  color: #EA9F06;
+}
 footer .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .row {
-  margin-top: 20px;
-}
-footer p {
+footer .container p {
   margin-top: 30px;
   color: #fff;
   font-size: 13px;
@@ -28,10 +56,7 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  footer .row {
-    margin-top: 20px;
-  }
-  footer p {
+  footer .container p {
     margin-top: 30px;
     color: #fff;
     font-size: 10px;
@@ -41,19 +66,36 @@ footer p {
   footer {
     background-color: var(--couleur-primary);
   }
+  footer .footer-nav {
+    padding: 60px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+  }
+  footer .footer-nav .position-relative {
+    background-color: #fff;
+    width: 65%;
+    left: 17%;
+    top: -80px;
+    position: absolute;
+    padding: 20px 30px 5px 20px;
+    border-radius: 12px;
+  }
+  footer .footer-nav .position-relative ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: circle;
+    font-size: 0.6em;
+  }
   footer .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  footer .row {
-    margin-top: 10px;
+  footer .container img {
+    width: 40px;
+    height: 40px;
   }
-  footer img {
-    width: 25px;
-    height: 25px;
-  }
-  footer p {
+  footer .container img p {
     margin-top: 15px;
     color: #fff;
     font-size: 10px;
