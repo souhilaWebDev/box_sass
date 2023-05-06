@@ -27,7 +27,7 @@ body {
             align-items: stretch;
             padding: 30px 0;
 
-            //#######################   version mobile si l ecran est inferieur ou egal à  992px    ####################### -->
+            //#####   version mobile si l ecran est inferieur ou egal à  992px    ###### -->
             @media all and (max-width :992px) {
                 flex-direction: column;
                 padding: 30px 6% 30px 6%;
@@ -115,10 +115,8 @@ body {
 
         box-shadow: 0px 3px 10px #111;
 
-
         .content {
             width: 70%;
-
 
             .header_img img {
                 width: 100%;
@@ -158,8 +156,6 @@ body {
                         }
 
                         .titre_produit {
-
-                            // font-size: 14px;
                             font-size: 1.3vw;
                             margin-top: -35px;
                             text-transform: uppercase;
@@ -217,15 +213,12 @@ body {
 
                     .prix_pourcentage {
                         position: absolute;
-                        // top: 2vw;
                         top: 15px;
                         right: -4vw;
-                        // right: -40px;
                         padding: 5px 10px;
                         background-color: #292929;
                         color: #EA9F06;
                         font-weight: bold;
-                        // font-size: 150%;
                         font-size: 2vw;
                         border-radius: 10px;
 
@@ -245,11 +238,7 @@ body {
             }
         }
 
-
     }
-
-
-
 
     .footer1 {
         background-color: #373737;
@@ -348,12 +337,9 @@ body {
     }
 
 
-
     @media (max-width: 540px) {
 
-
         .footer2 {
-
 
             .container {
                 display: flex;
@@ -381,7 +367,5 @@ body {
         }
 
     }
-
-
 
 }
