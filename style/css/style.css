@@ -122,8 +122,7 @@ body header .contenu .right nav ul {
 }
 body header .contenu .right nav ul a {
   text-decoration: none;
-  color: #212121;
-  font-weight: 600;
+  color: #000;
   transition: color 500ms ease-out;
 }
 body header .contenu .right nav ul a:hover {
