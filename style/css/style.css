@@ -257,11 +257,12 @@ body .footer1 div nav {
 body .footer1 div nav ul {
   display: flex;
   justify-content: space-between;
-  font-size: 0.8em;
+  font-size: 14px;
   list-style-type: circle;
 }
 body .footer1 div nav ul li {
   position: relative;
+  list-style-type: none;
 }
 body .footer1 div nav ul li a {
   text-decoration: none;
@@ -270,6 +271,24 @@ body .footer1 div nav ul li a {
 }
 body .footer1 div nav ul li a:hover {
   color: #EA9F06;
+}
+body .footer1 div nav ul li + li::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: rgba(209, 209, 209, 0.9019607843);
+  border-radius: 50%;
+  position: absolute;
+  left: -48px;
+}
+@media all and (max-width: 992px) {
+  body .footer1 div nav ul li + li::before {
+    left: -11px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+  }
 }
 body .footer2 {
   background-color: #373737;
